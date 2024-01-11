@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express";
 import multer from "multer";
-import fs from "fs";
 
 const app = express();
 const PORT = 3000;
@@ -58,3 +57,5 @@ const countMP3Frames = (buffer: Buffer): number => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+export { app, countMP3Frames };

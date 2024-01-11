@@ -26,10 +26,18 @@ Initially after reading the spec and reading up on MP3 files, my first line of t
    git clone https://github.com/your-username/your-repository.git
    ```
 
+2. Install packages:
+   ```bash
+   npm install
+   ```
+
 ## Usage
 
 1. Run against your local host and test through Postman application
-2. make a post request to the '/file-upload' endpoint, with an MP3 file as the body as form data, with the key 'mp3':
+2. make a post request to the '/file-upload' endpoint, with an MP3 file as the body as form data, with the key 'mp3'.
+   ```bash
+   http://localhost:3000/file-upload
+   ```
 
 ## Tests
 

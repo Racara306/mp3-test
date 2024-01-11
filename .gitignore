@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# Output of 'npm install'
+package-lock.json
+npm-debug.log
+
+# TypeScript configuration
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# Jest coverage folder
+coverage/
+
+# VS Code config folder
+.vscode/
+
+# Jest cache folder
+.jest/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environmental variables file
+.env
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore Yarn integrity file
+.yarn-integrity

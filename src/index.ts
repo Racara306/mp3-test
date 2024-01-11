@@ -33,8 +33,6 @@ app.post(
     // Read the file buffer and count the frames
     const frameCount = countMP3Frames(mp3File.buffer);
 
-    console.log("MP3 file: ", mp3File);
-
     res.status(200).send({ frameCount });
   }
 );
